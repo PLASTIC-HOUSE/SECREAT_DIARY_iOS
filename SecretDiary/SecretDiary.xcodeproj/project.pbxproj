@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1577862835D69600E7F4E8 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1577852835D69600E7F4E8 /* SignUpView.swift */; };
+		EF1577892835D90200E7F4E8 /* DiaryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1577882835D90200E7F4E8 /* DiaryListView.swift */; };
+		EF15778B2835D90F00E7F4E8 /* WriteDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF15778A2835D90F00E7F4E8 /* WriteDiaryView.swift */; };
+		EF15778D2835D93900E7F4E8 /* DiaryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF15778C2835D93900E7F4E8 /* DiaryDetailView.swift */; };
+		EF15778F2835D97100E7F4E8 /* DiaryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF15778E2835D97100E7F4E8 /* DiaryRowView.swift */; };
+		EF17CD87284852D7000723EF /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17CD86284852D6000723EF /* NavigationBarModifier.swift */; };
+		EF17CD8928485311000723EF /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17CD8828485311000723EF /* View.swift */; };
+		EF5A1D82282C918B007B62C5 /* SecretDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A1D81282C918B007B62C5 /* SecretDiaryApp.swift */; };
+		EF5A1D84282C918B007B62C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A1D83282C918B007B62C5 /* ContentView.swift */; };
+		EF5A1D86282C9190007B62C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5A1D85282C9190007B62C5 /* Assets.xcassets */; };
+		EF5A1D89282C9190007B62C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5A1D88282C9190007B62C5 /* Preview Assets.xcassets */; };
+		EF5A1D91282C958B007B62C5 /* WriteNickNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A1D90282C958B007B62C5 /* WriteNickNameView.swift */; };
+		EF5A1D94282C95AA007B62C5 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A1D93282C95AA007B62C5 /* SignInView.swift */; };
+		EF5A1D97282C97FA007B62C5 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A1D96282C97FA007B62C5 /* UIColor.swift */; };
+		EFA6D5BA2863663100C309F6 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA6D5B92863663100C309F6 /* SignInViewModel.swift */; };
+		EFA6D5BC28636E0200C309F6 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA6D5BB28636E0200C309F6 /* Authentication.swift */; };
+		EFDF4381285AA84F0085C301 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF4380285AA84F0085C301 /* HTTPClient.swift */; };
+		EFDF4384285AA85D0085C301 /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF4383285AA85D0085C301 /* APIProvider.swift */; };
+		EFDF4386285AA8690085C301 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF4385285AA8690085C301 /* UserAPI.swift */; };
+		EFDF4388285AA8850085C301 /* DiaryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF4387285AA8850085C301 /* DiaryAPI.swift */; };
+		EFDF438B285AA8B70085C301 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EFDF438A285AA8B70085C301 /* Alamofire */; };
+		EFDF4393285ABE4B0085C301 /* DiaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF4392285ABE4B0085C301 /* DiaryModel.swift */; };
+		EFDF4397285AC26F0085C301 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF4396285AC26F0085C301 /* SignUpViewModel.swift */; };
+		EFDF4399285AC2E50085C301 /* DiaryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF4398285AC2E50085C301 /* DiaryListViewModel.swift */; };
+		EFDF439B285AC6FD0085C301 /* PostDiaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF439A285AC6FD0085C301 /* PostDiaryViewModel.swift */; };
+		EFDF439D285AC8390085C301 /* DiaryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF439C285AC8390085C301 /* DiaryDetailViewModel.swift */; };
+		EFEDF0832851864C00EC084A /* NavigationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEDF0822851864C00EC084A /* NavigationUtil.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF1577852835D69600E7F4E8 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		EF1577882835D90200E7F4E8 /* DiaryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListView.swift; sourceTree = "<group>"; };
+		EF15778A2835D90F00E7F4E8 /* WriteDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDiaryView.swift; sourceTree = "<group>"; };
+		EF15778C2835D93900E7F4E8 /* DiaryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailView.swift; sourceTree = "<group>"; };
+		EF15778E2835D97100E7F4E8 /* DiaryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryRowView.swift; sourceTree = "<group>"; };
+		EF17CD86284852D6000723EF /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
+		EF17CD8828485311000723EF /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		EF5A1D7E282C918B007B62C5 /* SecretDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5A1D81282C918B007B62C5 /* SecretDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretDiaryApp.swift; sourceTree = "<group>"; };
+		EF5A1D83282C918B007B62C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF5A1D85282C9190007B62C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF5A1D88282C9190007B62C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF5A1D90282C958B007B62C5 /* WriteNickNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteNickNameView.swift; sourceTree = "<group>"; };
+		EF5A1D93282C95AA007B62C5 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		EF5A1D96282C97FA007B62C5 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		EFA6D5B82863604500C309F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EFA6D5B92863663100C309F6 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		EFA6D5BB28636E0200C309F6 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		EFDF4380285AA84F0085C301 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		EFDF4383285AA85D0085C301 /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
+		EFDF4385285AA8690085C301 /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		EFDF4387285AA8850085C301 /* DiaryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryAPI.swift; sourceTree = "<group>"; };
+		EFDF4392285ABE4B0085C301 /* DiaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryModel.swift; sourceTree = "<group>"; };
+		EFDF4396285AC26F0085C301 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		EFDF4398285AC2E50085C301 /* DiaryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryListViewModel.swift; sourceTree = "<group>"; };
+		EFDF439A285AC6FD0085C301 /* PostDiaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDiaryViewModel.swift; sourceTree = "<group>"; };
+		EFDF439C285AC8390085C301 /* DiaryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailViewModel.swift; sourceTree = "<group>"; };
+		EFEDF0822851864C00EC084A /* NavigationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUtil.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5A1D7B282C918B007B62C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDF438B285AA8B70085C301 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1577872835D8E000E7F4E8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EF1577882835D90200E7F4E8 /* DiaryListView.swift */,
+				EF15778A2835D90F00E7F4E8 /* WriteDiaryView.swift */,
+				EF15778C2835D93900E7F4E8 /* DiaryDetailView.swift */,
+				EF15778E2835D97100E7F4E8 /* DiaryRowView.swift */,
+				EFA6D5BB28636E0200C309F6 /* Authentication.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EF17CD85284851F7000723EF /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				EF17CD86284852D6000723EF /* NavigationBarModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		EF5A1D75282C918B007B62C5 = {
+			isa = PBXGroup;
+			children = (
+				EF5A1D80282C918B007B62C5 /* SecretDiary */,
+				EF5A1D7F282C918B007B62C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5A1D7F282C918B007B62C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A1D7E282C918B007B62C5 /* SecretDiary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5A1D80282C918B007B62C5 /* SecretDiary */ = {
+			isa = PBXGroup;
+			children = (
+				EFA6D5B82863604500C309F6 /* Info.plist */,
+				EFDF4395285AC2640085C301 /* ViewModels */,
+				EFDF438F285AAFAE0085C301 /* Model */,
+				EFDF438D285AAFA40085C301 /* View */,
+				EF5A1D81282C918B007B62C5 /* SecretDiaryApp.swift */,
+				EF5A1D83282C918B007B62C5 /* ContentView.swift */,
+				EF5A1D85282C9190007B62C5 /* Assets.xcassets */,
+				EF5A1D87282C9190007B62C5 /* Preview Content */,
+			);
+			path = SecretDiary;
+			sourceTree = "<group>";
+		};
+		EF5A1D87282C9190007B62C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A1D88282C9190007B62C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF5A1D8F282C9539007B62C5 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A1D90282C958B007B62C5 /* WriteNickNameView.swift */,
+				EF1577852835D69600E7F4E8 /* SignUpView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		EF5A1D92282C9596007B62C5 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A1D93282C95AA007B62C5 /* SignInView.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		EF5A1D95282C97DC007B62C5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A1D96282C97FA007B62C5 /* UIColor.swift */,
+				EF17CD8828485311000723EF /* View.swift */,
+				EFEDF0822851864C00EC084A /* NavigationUtil.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EFDF437F285AA8360085C301 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EFDF4382285AA8540085C301 /* API */,
+				EFDF4380285AA84F0085C301 /* HTTPClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EFDF4382285AA8540085C301 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EFDF4383285AA85D0085C301 /* APIProvider.swift */,
+				EFDF4385285AA8690085C301 /* UserAPI.swift */,
+				EFDF4387285AA8850085C301 /* DiaryAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		EFDF438D285AAFA40085C301 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A1D95282C97DC007B62C5 /* Extensions */,
+				EF17CD85284851F7000723EF /* Modifiers */,
+				EF5A1D92282C9596007B62C5 /* SignIn */,
+				EF5A1D8F282C9539007B62C5 /* SignUp */,
+				EF1577872835D8E000E7F4E8 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFDF438F285AAFAE0085C301 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFDF437F285AA8360085C301 /* Networking */,
+				EFDF4392285ABE4B0085C301 /* DiaryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFDF4395285AC2640085C301 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EFDF4396285AC26F0085C301 /* SignUpViewModel.swift */,
+				EFDF4398285AC2E50085C301 /* DiaryListViewModel.swift */,
+				EFDF439A285AC6FD0085C301 /* PostDiaryViewModel.swift */,
+				EFDF439C285AC8390085C301 /* DiaryDetailViewModel.swift */,
+				EFA6D5B92863663100C309F6 /* SignInViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5A1D7D282C918B007B62C5 /* SecretDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5A1D8C282C9190007B62C5 /* Build configuration list for PBXNativeTarget "SecretDiary" */;
+			buildPhases = (
+				EF5A1D7A282C918B007B62C5 /* Sources */,
+				EF5A1D7B282C918B007B62C5 /* Frameworks */,
+				EF5A1D7C282C918B007B62C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecretDiary;
+			packageProductDependencies = (
+				EFDF438A285AA8B70085C301 /* Alamofire */,
+			);
+			productName = SecretDiary;
+			productReference = EF5A1D7E282C918B007B62C5 /* SecretDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5A1D76282C918B007B62C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					EF5A1D7D282C918B007B62C5 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = EF5A1D79282C918B007B62C5 /* Build configuration list for PBXProject "SecretDiary" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5A1D75282C918B007B62C5;
+			packageReferences = (
+				EFDF4389285AA8B70085C301 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = EF5A1D7F282C918B007B62C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5A1D7D282C918B007B62C5 /* SecretDiary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5A1D7C282C918B007B62C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5A1D89282C9190007B62C5 /* Preview Assets.xcassets in Resources */,
+				EF5A1D86282C9190007B62C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5A1D7A282C918B007B62C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDF4399285AC2E50085C301 /* DiaryListViewModel.swift in Sources */,
+				EF17CD87284852D7000723EF /* NavigationBarModifier.swift in Sources */,
+				EFDF4386285AA8690085C301 /* UserAPI.swift in Sources */,
+				EF15778D2835D93900E7F4E8 /* DiaryDetailView.swift in Sources */,
+				EFA6D5BA2863663100C309F6 /* SignInViewModel.swift in Sources */,
+				EFDF4384285AA85D0085C301 /* APIProvider.swift in Sources */,
+				EF5A1D84282C918B007B62C5 /* ContentView.swift in Sources */,
+				EFDF4397285AC26F0085C301 /* SignUpViewModel.swift in Sources */,
+				EF5A1D82282C918B007B62C5 /* SecretDiaryApp.swift in Sources */,
+				EFDF439B285AC6FD0085C301 /* PostDiaryViewModel.swift in Sources */,
+				EF5A1D91282C958B007B62C5 /* WriteNickNameView.swift in Sources */,
+				EFDF4393285ABE4B0085C301 /* DiaryModel.swift in Sources */,
+				EFEDF0832851864C00EC084A /* NavigationUtil.swift in Sources */,
+				EF5A1D94282C95AA007B62C5 /* SignInView.swift in Sources */,
+				EF1577862835D69600E7F4E8 /* SignUpView.swift in Sources */,
+				EFDF4388285AA8850085C301 /* DiaryAPI.swift in Sources */,
+				EFDF439D285AC8390085C301 /* DiaryDetailViewModel.swift in Sources */,
+				EF1577892835D90200E7F4E8 /* DiaryListView.swift in Sources */,
+				EF17CD8928485311000723EF /* View.swift in Sources */,
+				EFDF4381285AA84F0085C301 /* HTTPClient.swift in Sources */,
+				EF15778B2835D90F00E7F4E8 /* WriteDiaryView.swift in Sources */,
+				EF5A1D97282C97FA007B62C5 /* UIColor.swift in Sources */,
+				EF15778F2835D97100E7F4E8 /* DiaryRowView.swift in Sources */,
+				EFA6D5BC28636E0200C309F6 /* Authentication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF5A1D8A282C9190007B62C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF5A1D8B282C9190007B62C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5A1D8D282C9190007B62C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SecretDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = 8G67LV27Z4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SecretDiary/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "to use";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JSY.SecretDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF5A1D8E282C9190007B62C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SecretDiary/Preview Content\"";
+				DEVELOPMENT_TEAM = 8G67LV27Z4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SecretDiary/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "to use";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JSY.SecretDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5A1D79282C918B007B62C5 /* Build configuration list for PBXProject "SecretDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5A1D8A282C9190007B62C5 /* Debug */,
+				EF5A1D8B282C9190007B62C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5A1D8C282C9190007B62C5 /* Build configuration list for PBXNativeTarget "SecretDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5A1D8D282C9190007B62C5 /* Debug */,
+				EF5A1D8E282C9190007B62C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EFDF4389285AA8B70085C301 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EFDF438A285AA8B70085C301 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFDF4389285AA8B70085C301 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EF5A1D76282C918B007B62C5 /* Project object */;
+}
